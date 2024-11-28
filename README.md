@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+📚 Sistema Escolar 
+Aplicativo Escolar em React Native, com navegação através do Drawer Menu.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📖 Detalhes do Projeto  
+Este projeto é um aplicativo para dispositivos móveis que reproduz um ambiente escolar, possibilitando o deslocamento entre diversas telas através de um menu lateral (*Drawer Menu*). A meta é proporcionar uma experiência interativa, na qual o usuário tem acesso a informações relevantes sobre a escola, tais como boletim de notas, calendário de eventos e informações de contato.
 
-## Get started
+🛠️ Características  
+- Tela Inicial: Apresenta uma saudação ao usuário, apresentando uma mensagem introdutória.  
+- Painel de Notas: Apresentação das classificações dos estudantes.  
+- Página do Calendário Escolar: Detalhes sobre datas significativas do calendário acadêmico.  
+- Painel de Eventos: Informações acerca de acontecimentos escolares.  
+- Página de Contato: Dados de contato da instituição de ensino.
 
-1. Install dependencies
+🧑‍💻 Tecnologias Utilizadas  
+- React Native  
+- Expo
+- React Navigation (para navegação via Drawer)  
+  Componentes utilizados:  
+  - Link  
+  - Image  
+  - SafeAreaView  
+  - Text  
+  - StyleSheet
 
-   ```bash
-   npm install
-   ```
+🚀 Como Implementar o Projeto  
+Para instalar e utilizar o aplicativo em seu ambiente local, siga as instruções a seguir.
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Exigências necessárias 
+- Node.js configurado.  
+- Expo CLI organizado.  
+- Processador de texto (sugiro: Visual Studio Code)
